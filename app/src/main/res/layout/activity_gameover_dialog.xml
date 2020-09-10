@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        android:textColor="@color/red"
+        android:text="GAME OVER!!!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:id="@+id/editTextPlayer"
+        android:padding="10dp"
+        android:background="@drawable/textview_background"
+        android:layout_margin="20dp"
+        android:hint="Your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:id="@+id/buttonSaveScore"
+            android:textColor="@color/black"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/textview_background"
+            android:text="Save Score"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/buttonNewGame"
+            android:textColor="@color/black"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/textview_background"
+            android:text="New Game"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

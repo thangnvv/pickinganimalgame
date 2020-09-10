@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/homescreen"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:text="Welcome To Animal Picker!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/textview_background"
+        android:textStyle="bold"
+        android:fontFamily="@font/robotoblack"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Start New Game"
+        />
+
+    <Button
+        android:id="@+id/buttonHighScore"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/textview_background"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/robotoblack"
+        android:textSize="24sp"
+        android:text="High Score"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
